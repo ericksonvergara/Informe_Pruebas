@@ -41,14 +41,14 @@ public class CargueArchivosView extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         textFileNameUpdatePagos = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
+        textFileNameUpdateCartera = new javax.swing.JTextField();
+        textFileNameUpdateGestion = new javax.swing.JTextField();
         btn_UpdatePagos = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        btn_UpdateCartera = new javax.swing.JButton();
+        btn_UpdateGestion = new javax.swing.JButton();
         UpdatePagos_lbl = new javax.swing.JLabel();
-        cargara_lbl2 = new javax.swing.JLabel();
-        cargara_lbl4 = new javax.swing.JLabel();
+        UpdateCartera_lbl = new javax.swing.JLabel();
+        UpdateGestion_lbl = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
 
         cargara_lbl3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buscando.png"))); // NOI18N
@@ -74,15 +74,15 @@ public class CargueArchivosView extends javax.swing.JFrame {
 
         btn_UpdatePagos.setText("Actualizar");
 
-        jButton3.setText("Actualizar");
+        btn_UpdateCartera.setText("Actualizar");
 
-        jButton4.setText("Actualizar");
+        btn_UpdateGestion.setText("Actualizar");
 
         UpdatePagos_lbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buscando.png"))); // NOI18N
 
-        cargara_lbl2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buscando.png"))); // NOI18N
+        UpdateCartera_lbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buscando.png"))); // NOI18N
 
-        cargara_lbl4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buscando.png"))); // NOI18N
+        UpdateGestion_lbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buscando.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -107,23 +107,23 @@ public class CargueArchivosView extends javax.swing.JFrame {
                                     .addComponent(jLabel4))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jTextField3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
+                                    .addComponent(textFileNameUpdateCartera, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
                                     .addComponent(textFileNameUpdatePagos, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jTextField4))
+                                    .addComponent(textFileNameUpdateGestion))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(UpdatePagos_lbl)
-                                    .addComponent(cargara_lbl2))
-                                .addComponent(cargara_lbl4))
+                                    .addComponent(UpdateCartera_lbl))
+                                .addComponent(UpdateGestion_lbl))
                             .addComponent(cargar_lbl))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btn_cargar, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton3)
+                            .addComponent(btn_UpdateCartera)
                             .addComponent(btn_UpdatePagos)
-                            .addComponent(jButton4))
+                            .addComponent(btn_UpdateGestion))
                         .addGap(230, 230, 230))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 641, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -140,11 +140,11 @@ public class CargueArchivosView extends javax.swing.JFrame {
                             .addComponent(textFileNameUpdatePagos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textFileNameUpdateCartera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel3))
                         .addGap(20, 20, 20)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textFileNameUpdateGestion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel4)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -161,12 +161,12 @@ public class CargueArchivosView extends javax.swing.JFrame {
                             .addComponent(btn_UpdatePagos))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(cargara_lbl2)
-                            .addComponent(jButton3))
+                            .addComponent(UpdateCartera_lbl)
+                            .addComponent(btn_UpdateCartera))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton4)
-                            .addComponent(cargara_lbl4))))
+                            .addComponent(btn_UpdateGestion)
+                            .addComponent(UpdateGestion_lbl))))
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
@@ -234,23 +234,23 @@ public class CargueArchivosView extends javax.swing.JFrame {
     }  
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel UpdateCartera_lbl;
+    private javax.swing.JLabel UpdateGestion_lbl;
     private javax.swing.JLabel UpdatePagos_lbl;
+    private javax.swing.JButton btn_UpdateCartera;
+    private javax.swing.JButton btn_UpdateGestion;
     private javax.swing.JButton btn_UpdatePagos;
     private javax.swing.JButton btn_cargar;
     private javax.swing.JLabel cargar_lbl;
-    private javax.swing.JLabel cargara_lbl2;
     private javax.swing.JLabel cargara_lbl3;
-    private javax.swing.JLabel cargara_lbl4;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField textFielNameFileGeneral;
+    private javax.swing.JTextField textFileNameUpdateCartera;
+    private javax.swing.JTextField textFileNameUpdateGestion;
     private javax.swing.JTextField textFileNameUpdatePagos;
     // End of variables declaration//GEN-END:variables
 }
