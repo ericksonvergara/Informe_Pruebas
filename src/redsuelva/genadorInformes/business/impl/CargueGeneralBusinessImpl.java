@@ -38,16 +38,18 @@ public class CargueGeneralBusinessImpl  implements ICargueGeneralBusiness{
     }
     
     /*
-    public void actualizaArchivoInBD(List<BaseInforme> lista2){
-        for(BaseInforme u : lista2){
-        baseInformeDao = new BaseInformeDao(this.conexionConfig);
-        baseInformeDao.update(u);
-        }
+    
     }
     */
 
     @Override
-    public void actualizarArchivoInBD(List<BaseInforme> listBaseInforme) {
+    public void actualizarArchivoInBD(List<BaseInforme> lista2) {
+        
+        
+        for(BaseInforme u : lista2){
+        baseInformeDao = new BaseInformeDao(this.conexionConfig);
+        baseInformeDao.update(u);
+        }
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
